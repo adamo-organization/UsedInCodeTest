@@ -1,7 +1,6 @@
 package com.dchealth.filter;
 import com.dchealth.util.StringUtils;
 import org.springframework.web.bind.ServletRequestDataBinder;
-
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
