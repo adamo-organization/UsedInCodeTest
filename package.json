@@ -1,0 +1,20 @@
+{
+  "name": "UsedInCodeTest",
+  "version": "1.0.0",
+  "description": "A project with intentionally vulnerable dependencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1"  // Older version with known vulnerabilities
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",     // Known vulnerabilities in Gulp 3.x
+    "grunt": "^1.0.4",    // Older version with potential vulnerabilities
+    "lodash": "4.17.20"   // Version with known vulnerabilities
+  }
+}
