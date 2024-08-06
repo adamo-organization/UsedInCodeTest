@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "4.17.1"  // Older version with known vulnerabilities
+    "express": "4.17.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",     // Known vulnerabilities in Gulp 3.x
-    "grunt": "^1.0.4",    // Older version with potential vulnerabilities
-    "lodash": "4.17.20"   // Version with known vulnerabilities
+    "gulp": "^3.9.1",
+    "grunt": "^1.0.4",
+    "lodash": "4.17.20"
   }
 }
